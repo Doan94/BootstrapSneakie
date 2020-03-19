@@ -1,16 +1,24 @@
 @font-face {
     font-family:'Sneakers';
-    src:'fonts/Sneakers.ttf'
+    src: url(../fonts/Sneakers.ttf);
 }
 @font-face {
     font-family: 'Polers-Free';
-    src:'fonts/Polers-Free.ttf'
+    src: url(../fonts/Polers-Free.ttf);
 }
 @font-face {
     font-family: 'centaur';
-    src:'fonts/centaur.ttf'
+    src: url(../fonts/centaur.ttf);
 }
 @font-face {
     font-family: 'Profession-Regular';
-    src:'fonts/Profession-Regular.ttf'
+    src: url(../fonts/Profession-Regular.ttf);
+}
+
+.logo {
+    font-family: 'Sneakers';
+}
+
+.sneakie {
+    font-family: 'Polers-Free';
 }
