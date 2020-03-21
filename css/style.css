@@ -15,10 +15,26 @@
     src: url(../fonts/Profession-Regular.ttf);
 }
 
+body {
+    background-color: #9c9c9c;
+}
+
 .logo {
     font-family: 'Sneakers';
 }
 
 .sneakie {
     font-family: 'Polers-Free';
+}
+
+.texte {
+    font-family: 'centaur';
+}
+
+.banner {
+    background-color: #9c9c9c;
+}
+
+.footer {
+    font-family: 'Profession-Regular';
 }
