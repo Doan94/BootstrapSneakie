@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!--header-->
+    <!--header desktop-->
     <header class="container-fluid header bg-danger text-white text-center">
         <a class="logo display-1">e</a>
         <a class="sneakie display-2">SNEAKIE</a>
@@ -16,9 +16,9 @@
     </header>
     <!--end header-->
 
-    <!--barre de navigation-->
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-around">
-            <ul class="navbar-nav">
+    <!--barre de navigation desktop-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark d-none d-xl-block">
+            <ul class="navbar-nav justify-content-around">
             <li class="nav-item">
                 <a class="nav-link" href="#">Actualités</a>
             </li>
@@ -35,12 +35,12 @@
         </nav>
     <!--endbarre de navigation-->
 
-    <!--image de fond-->
-        <img src="Images/imagefond.jpg" class="w-100">
+    <!--image de fond desktop-->
+        <img src="Images/imagefond.jpg" class="w-100 d-none d-xl-block">
     <!--end image de fond-->
 
-    <!--bannière-->
-        <section class="container-fluid banner">
+    <!--bannière desktop-->
+        <section class="container-fluid banner d-none d-xl-block">
             <div class="video row mb-2">
                 <div class="embed-responsive embed-responsive-16by9 col-lg-4 col-md-12">
                     <iframe class="embed-responsive-item mx-2 my-2" src="https://www.youtube.com/embed/rnlLdWPTOqw"></iframe>
@@ -59,12 +59,41 @@
 
     <!--end bannière-->
 
-    <!--footer-->
+    <!--tablet navbar-->
+    <nav class="navbar2 navbar-dark bg-pink d-block d-xl-none"> 
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Actualités</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sorties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Forum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mon Compte</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </nav>
+    <!--end tablet navbar-->    
+
+    <!--footer desktop-->
         <h4 class="container-fluid bg-danger footer text-center text-white">Pour nous contacter :</br>
             sneakie@gmail.com
         </h4>
     <!--end footer-->
 
+
+    
+    
 
     
 
