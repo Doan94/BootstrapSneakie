@@ -16,7 +16,8 @@
 }
 
 body {
-    background-color: #9c9c9c;
+    height: auto;
+    width: auto;
 }
 
 .logo {
@@ -41,4 +42,12 @@ body {
 
 .navbar2 {
     background-color: rgb(235, 133, 133);
+}
+
+.sortietab {
+    background-color: rgb(156, 156, 156);
+}
+
+.actutab {
+    background-color: rgb(218, 216, 216);
 }
