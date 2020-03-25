@@ -66,17 +66,17 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto ml-1">
             <li class="nav-item active">
               <a class="nav-link" href="#">Actualités</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Sorties</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Forum</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="pages/moncompte.html">Mon Compte</a>
             </li>
           </ul>
@@ -88,42 +88,42 @@
     
     <div class="pagetab container-fluid bg-white d-block d-xl-none">
     <!--tablet actu-->
-      <div class="actutab mt-2">
+      <div class="actutab mt-2 d-none d-md-block">
         <h2 class="atab text-center">Actualités</h2>
           <h4 class="ttr1 ml-2">10/10:Sacai x Nike Vaporfly</h4>
             <div id="imgtab1">
-              <img src="Images/sacaiipad1.jpg" class="imart1">
-              <img src="Images/sacaiipad2.jpg" class="imart2">
+              <img src="Images/sacaiipad1.jpg" class="imart1 col-sm-6 float-left">
+              <img src="Images/sacaiipad2.jpg" class="imart2 col-sm-6 float-right">
             </div>
              <p class="tx1 ml-2">La Sacai x Nike LDWaffle étant l'une des collaborations les plus convoitées de l'année 2019, il n'est pas si étonnant d'apprendre que le partenariat entre la marque de Beaverton et Chitose Abe auraient jeté leur dévolu sur la Nike PEG Vaporfly SP.
               </p>
-          <h4 class="ttr2 ml-2">09/10:Travis Scott & Nike Dunk Low</h4>
+          <h4 class="ttr2 ml-2 d-none d-md-block">09/10:Travis Scott & Nike Dunk Low</h4>
             <div id="imgtab2">
-              <img src="Images/dunkllotsipad.jpg">
-              <img src="Images/dunklootsipad2.jpg">
+              <img src="Images/dunkllotsipad.jpg" class="imart3 col-sm-6 float-left">
+              <img src="Images/dunklootsipad2.jpg" class="imart4 col-sm-6 float-left">
             </div>
-            <p class="tx2 ml-2">La Flame vient de sortir un nouveau LP de 7 titres intitulés "JACKBOYS". Afin de célébrer l'évènement il nous a concocté un petit court-métrage de 9 minutes ou l'on peut le voir avec une mystérieuse paire de Dunk Low aux pieds. Ce nouveau design colle parfaitement avec l'esthétique de C. Jack.
+            <p class="tx2 ml-2 d-none d-md-block">La Flame vient de sortir un nouveau LP de 7 titres intitulés "JACKBOYS". Afin de célébrer l'évènement il nous a concocté un petit court-métrage de 9 minutes ou l'on peut le voir avec une mystérieuse paire de Dunk Low aux pieds. Ce nouveau design colle parfaitement avec l'esthétique de C. Jack.
               </p>
       </div>
     <!--end tablet actu-->
     <!--tablet sortie-->
-      <div class="sortietab text-center mb-2">
+      <div class="sortietab text-center mb-2 d-none d-md-block">
         <h2 id="stab">Sorties</h2>
           <div class="partieh row justify-content-between">
             <div id="art1 col-sm-6">
               <div class="ii1 row mb-2">
                 <img src="Images/yeezy700hospitalblueipad.jpg" class="img1 ml-5">
-                  <div class="txt1 text-center ml-1">
+                  <div class="txt1 text-center ml-2">
                     <h4>16/10/2020</h4>
-                    <p>Adidas Yeezy 700 V2 Hospital Blue</p>
+                    <p>Adidas Yeezy 700 V2</br> Hospital Blue</p>
                   </div>
                 </div>
             </div>
             <div id="art2 col-sm-6">
                 <div class="ii2 row mb-2">
-                    <div class="txt2 text-center mr-1">
+                    <div class="txt2 text-center mr-2">
                       <h4>18/10/2020</h4>
-                      <p>Air Jordan 6 Cactus Jack Green Olive</p>
+                      <p>Air Jordan 6 Cactus</br> Jack Green Olive</p>
                     </div>
                       <img src="Images/airjordan6tsipad.jpg" class="img2 mr-5">                    
                 </div>
@@ -133,17 +133,17 @@
             <div id="art3 col-sm-6">
               <div class="ii3 row mb-2">
                   <img src="Images/adidasyung1solaripad.jpeg" class="img3 ml-5">
-                  <div class="txt3 text-center ml-1">
+                  <div class="txt3 text-center ml-2">
                     <h4>19/10/2020</h4>
-                    <p>Adidas Yung-1 Solar Green</p>
+                    <p>Adidas Yung-1 Solar </br>Green</p>
                   </div>
               </div>
             </div>
             <div id="art4 col-sm-6">
               <div class="ii4 row mb-2">             
-                  <div class="txt4 text-center mr-1">
+                  <div class="txt4 text-center mr-2">
                     <h4>20/10/2020</h4>
-                    <p>Air Jordan Rétro Varsity Red 85</p>
+                    <p>Air Jordan Rétro </br>Varsity Red 85</p>
                   </div>
                     <img src="Images/airjordanvarsityipad.jpeg" class="img4 mr-5">
               </div>
@@ -154,7 +154,20 @@
      <!--end tablet sortie-->
     </div>
 
-   
+    <div class="pagetab container-fluid bg-white d-md-none">
+    <!--phone actu-->
+      <div class="actu_ph mt-2">
+        <h2 class="ac_pho text-center">Actualités</h2>
+          <h3 class="ti_pho text-center">Sacai x Nike Vaporfly</h3>
+            <img src="Images/sacaiipad1.jpg" class="im_actu col-sm-8 offset-sm-2">
+              <p class="txt_pho ml-2 mt-1">La Sacai x Nike LDWaffle étant l'une des collaborations les plus convoitées de l'année 2019, il n'est pas si étonnant d'apprendre que le partenariat entre la marque de Beaverton et Chitose Abe auraient jeté leur dévolu sur la Nike PEG Vaporfly SP.               
+              </p>
+      </div>  
+    <!--end phone actu-->
+    <!--phone sortie-->
+
+    <!--end phone sortie-->
+    </div>
 
     <!--footer desktop-->
         <h4 class="container-fluid bg-danger footer text-center text-white">Pour nous contacter :</br>

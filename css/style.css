@@ -28,7 +28,7 @@ body {
     font-family: 'Polers-Free';
 }
 
-.texte, p, h4, h2 {
+.texte, p, h4, h2, .ti_pho {
     font-family: 'centaur';
 }
 
@@ -48,7 +48,7 @@ body {
     background-color: rgb(156, 156, 156);
 }
 
-.actutab {
+.actutab, .actu_ph{
     background-color: rgb(218, 216, 216);
 }
 
