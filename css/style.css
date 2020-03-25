@@ -28,7 +28,7 @@ body {
     font-family: 'Polers-Free';
 }
 
-.texte {
+.texte, p, h4, h2 {
     font-family: 'centaur';
 }
 
@@ -51,3 +51,4 @@ body {
 .actutab {
     background-color: rgb(218, 216, 216);
 }
+
