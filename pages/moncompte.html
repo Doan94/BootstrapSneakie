@@ -15,13 +15,13 @@
     </header>
     <!--end header-->
     <!--barre de navigation desktop-->
-    <nav class="navbar navbar-expand-sm navbar-dark justify-content-around">
-        <ul class="navbar-nav">
+    <nav class="navbar navbar-expand-sm navbar-dark d-none d-xl-block">
+        <ul class="navbar-nav justify-content-around">
         <li class="nav-item">
             <a class="nav-link active" href="../index.html">Accueil</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="#">Actualités</a>
+            <a class="nav-link active"href="#">Actualités</a>
         </li>
         <li class="nav-item">
             <a class="nav-link active" href="#">Sorties</a>
@@ -32,6 +32,31 @@
         </ul>
     </nav>
     <!--endbarre de navigation--> 
+
+    <!--tablet navbar-->
+    <nav class="navbar2 navbar-dark bg-pink d-block d-xl-none">    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ml-1">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Accueil</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Actualités</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Sorties</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Forum</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </nav>
+    <!--end tablet navbar--> 
     <!--corps-->
     <div class="corps container-fluid">
     <!--compte-->
@@ -49,7 +74,7 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Rester Connecté</label>
             </div>
-                <a href="#" class="mdp float-right text-dark">Mot de passe oublié</a>
+                <a href="#" class="mdp float-right text-dark">Mot de passe oublié?</a>
             <button type="submit" class="btn btn-primary mt-4">Se Connecter</button>    
             </form>
             <h6 class="phrase1 mt-4">Fan de sneakers!</br>Rejoins-nous vite!</h6>
@@ -59,5 +84,10 @@
     <!--end compte-->
     </div>
     <!--end corps-->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
