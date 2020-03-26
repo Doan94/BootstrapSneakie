@@ -40,15 +40,15 @@ body {
     font-family: 'Profession-Regular';
 }
 
-.navbar2 {
+.navbar2, .navbar {
     background-color: rgb(235, 133, 133);
 }
 
-.sortietab {
+.sortietab, .sort_ph {
     background-color: rgb(156, 156, 156);
 }
 
-.actutab, .actu_ph{
+.actutab, .actu_ph, .corps, .formulaire,  .body2 {
     background-color: rgb(218, 216, 216);
 }
 

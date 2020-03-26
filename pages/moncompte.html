@@ -1,11 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>moncompte</title>
+    <title>seconnecter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi facilis minus doloribus, nihil minima nam. Quisquam vel unde quae cumque eveniet quos deserunt laborum adipisci labore, vero, pariatur officiis aliquam!</p>
+<body class="body2">
+    <!--header desktop-->
+    <header class="container-fluid header bg-danger text-white text-center">
+        <a class="logo display-1">e</a>
+        <a class="sneakie display-2">SNEAKIE</a>
+    </header>
+    <!--end header-->
+    <!--barre de navigation desktop-->
+    <nav class="navbar navbar-expand-sm navbar-dark justify-content-around">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link active" href="../index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Actualités</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Sorties</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Forum</a>
+        </li>
+        </ul>
+    </nav>
+    <!--endbarre de navigation--> 
+    <!--corps-->
+    <div class="corps container-fluid">
+    <!--compte-->
+        <div class="formulaire container mt-5">
+            <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control w-100" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Mot de passe</label>
+                <input type="password" class="form-control w-100" id="exampleInputPassword1" placeholder="Mot de passe">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Rester Connecté</label>
+            </div>
+                <a href="#" class="mdp float-right text-dark">Mot de passe oublié</a>
+            <button type="submit" class="btn btn-primary mt-4">Se Connecter</button>    
+            </form>
+            <h6 class="phrase1 mt-4">Fan de sneakers!</br>Rejoins-nous vite!</h6>
+                <a class="btn btn-primary" href="formulaire.html" role="button">Créer son compte</a>
+            </form>
+        </div>
+    <!--end compte-->
+    </div>
+    <!--end corps-->
 </body>
 </html>
