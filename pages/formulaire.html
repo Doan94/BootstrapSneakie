@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body class="body3">
     <!--header desktop-->
     <header class="container-fluid header bg-danger text-white text-center">
         <a class="logo display-1">e</a>
@@ -67,11 +67,11 @@
           <div class="form-row mt-4">
             <div class="form-group col-md-6">
               <label for="inputSurname">Nom</label>
-              <input type="nom" class="form-control" id="inputSurname" placeholder="nom">
+              <input type="text" class="form-control" id="inputSurname" placeholder="nom">
             </div>
             <div class="form-group col-md-6">
               <label for="inputName">Prénom</label>
-              <input type="prenom" class="form-control" id="inputName" placeholder="Prénom">
+              <input type="text" class="form-control" id="inputName" placeholder="Prénom">
             </div>
           </div>
           <!--fin nom et prénom-->
@@ -93,7 +93,7 @@
           <div class="form-row mt-2">
             <div class="form-group col-md-6">
               <label for="inputEmail4">Email</label>
-              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
             </div>
             <div class="form-group col-md-6">
               <label for="inlineFormInputGroupUsername">Username</label>
@@ -110,49 +110,62 @@
           <!--mot de passe et confirmation-->
           <div class="form-row mt-2">
             <div class="form-group col-md-6">
-              <label for="inputEmail4">Nom</label>
-              <input type="nom" class="form-control" id="inputEmail4" placeholder="nom">
+              <label for="inputPassword">Mot de passe</label>
+              <input type="text" class="form-control" id="inputPassword" placeholder="Au moins 8 caractères, 1 chiffre, 1 majuscule et 1 minuscule!">
             </div>
             <div class="form-group col-md-6">
-              <label for="inputPassword4">Prénom</label>
-              <input type="prenom" class="form-control" id="inputPassword4" placeholder="Prénom">
+              <label for="inputPassword2">Confirmation Mot de passe</label>
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Confirmation mot de passe">
             </div>
           </div>
           <!--fin mot de passe et confirmation-->
+          <!--adresse1-->
           <div class="form-group">
-            <label for="inputAddress">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            <label for="inputAddress">Addresse</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Adresse">
           </div>
           <div class="form-group">
-            <label for="inputAddress2">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            <label for="inputAddress2">Complément d'adresse</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Appartement, étage...">
           </div>
+          <!--fin adresse1-->
+          <!--adresse2-->
           <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="inputCity">City</label>
-              <input type="text" class="form-control" id="inputCity">
+              <label for="inputCity">Ville</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="ville">
             </div>
             <div class="form-group col-md-4">
-              <label for="inputState">State</label>
-              <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>...</option>
-              </select>
+              <label for="inputState">Région</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Région">
             </div>
             <div class="form-group col-md-2">
-              <label for="inputZip">Zip</label>
-              <input type="text" class="form-control" id="inputZip">
+              <label for="inputZip">Code postal</label>
+              <input type="text" class="form-control" id="Code postal" placeholder="Code postal">
             </div>
           </div>
+          <!--fin adresse2-->
+          <!--liste-->
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="exampleFormControlTextarea1">Sneakers possédés</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="15"></textarea>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="exampleFormControlTextarea1">Sneakers recherché</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="15"></textarea>
+            </div>
+          </div>
+          <!--fin liste-->
           <div class="form-group">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="gridCheck">
               <label class="form-check-label" for="gridCheck">
-                Check me out
+                Me connecter automatiquement
               </label>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          <button type="submit" class="btn btn-primary mb-3">S'inscrire</button>
         </form>
     </div>
 
